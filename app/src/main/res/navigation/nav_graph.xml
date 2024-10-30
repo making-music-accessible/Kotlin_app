@@ -1,0 +1,18 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.ait.makemusicaccessible.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="com.ait.makemusicaccessible.MusicFragment"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/navigation_my_music"
+        android:name="com.ait.makemusicaccessible.MyMusicFragment"
+        tools:layout="@layout/fragment_my_music" />
+</navigation>
